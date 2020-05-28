@@ -31,7 +31,8 @@
   .icon-btn:hover{
     cursor:pointer;
     margin-top: 3px;
-    background-color:greenyellow;
+    /* background-color:greenyellow; */
+    border: 5px solid greenyellow;
   }
   
   .icon-link {
