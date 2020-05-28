@@ -54,14 +54,14 @@
   -webkit-transition: margin 0.1s ease-out;
   -moz-transition: margin 0.1s ease-out;
   -o-transition: margin 0.1s ease-out;
+  border: 5px solid black;
+  border-radius: 100%;
 }
 
 .icon-btn:hover{
   cursor:pointer;
   margin-top: 3px;
   background-color:greenyellow;
-  border: 5px solid black;
-  border-radius: 100%;
 }
 
 .icon-link {
