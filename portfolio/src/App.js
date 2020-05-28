@@ -17,11 +17,13 @@ function App() {
         </div>
         <div className='profile'>
           <Row>
-            <Col sm='6'>
+            <Col>
                 <Image className='profile-image' src={ profileImg } alt='profile image' />
             </Col>
-            <Col sm='6'>
-              <h1>{ name }</h1>
+            <Col>
+              <div className='profile-name'>
+                <h1>{ name }</h1>
+              </div>
             </Col>
           </Row>
         </div>
