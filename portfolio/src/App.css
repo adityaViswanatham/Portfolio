@@ -29,6 +29,10 @@
   margin-top: 15px;
 }
 
+.logo:hover {
+  transform: scale(1.25);
+}
+
 .profile {
   align-content: center;
   justify-content: center;
