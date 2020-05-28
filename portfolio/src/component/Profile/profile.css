@@ -21,9 +21,7 @@
     width: 3rem;
     height: 3rem;
     padding: 5px;
-    -webkit-transition: margin 0.1s ease-out;
-    -moz-transition: margin 0.1s ease-out;
-    -o-transition: margin 0.1s ease-out;
+    transition: margin 0.1s ease-out;
   }
 
   .desc {
