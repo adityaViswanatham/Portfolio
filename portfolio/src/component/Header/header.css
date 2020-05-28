@@ -1,0 +1,9 @@
+.logo {
+    width: 7rem;
+    height: 7rem;
+    margin-top: 15px;
+  }
+  
+  .logo:hover {
+    transform: scale(0.95);
+  }
