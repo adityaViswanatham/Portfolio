@@ -12,45 +12,40 @@ function App() {
   const name = 'B.P.S. Murthi';
   return (
     <div className='App'>
-        {/* Header */}
-        <div className='header'>
+      <Container>
+        <div>
+          
+        </div>
+         {/* Header */}
+         <div className='header'>
             <a href='https://www.utdallas.edu/' >
               <Image className='logo' src={ logo } alt="UTD LOGO" roundedCircle />
             </a>
             <p style={{ margin: '0' }}><strong>The University of Texas at Dallas</strong></p>
         </div>
-
+        <hr />
         {/* Profile */}
         <div className='profile'>
-          <Container>
-            <Row>
-              <Col>
-                  <Image className='profile-image' src={ profileImg } alt='profile image' />
-              </Col>
-              <Col>
-                <h1>{ name }</h1>
-              </Col>
-            </Row>
-          </Container>
+            <Image className='profile-image' src={ profileImg } alt='profile image' />
+            <h1 className='profile-name'>{ name }</h1>
+            <div className='icon-link'>
+              <Row>
+                <Col>
+                  <Image className='icon-btn' src={ university } alt="university icon" />
+                </Col>
+                <Col>
+                  <Image className='icon-btn' src={ publication } alt="publication icon" />
+                </Col>
+                <Col>
+                  <Image className='icon-btn' src={ research } alt="research icon" />
+                </Col>
+                <Col>
+                  <Image className='icon-btn' src={ students } alt="students icon" />
+                </Col>
+              </Row>
+            </div>
         </div>
-
-        {/* References */}
-        <Container>
-          <Row>
-            <Col>
-              <Image style={{width: '2rem', height: '2rem'}} src={ university } alt="university icon" thumbnail />
-            </Col>
-            <Col>
-              <Image style={{width: '2rem', height: '2rem'}} src={ publication } alt="publication icon" thumbnail />
-            </Col>
-            <Col>
-              <Image style={{width: '2rem', height: '2rem'}} src={ research } alt="research icon" thumbnail />
-            </Col>
-            <Col>
-              <Image style={{width: '2rem', height: '2rem'}} src={ students } alt="students icon" thumbnail />
-            </Col>
-          </Row>
-        </Container>
+      </Container>
     </div>
   );
 }
