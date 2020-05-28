@@ -16,7 +16,7 @@
     margin-top: 15px;
   }
   
-  .icon-btn{
+  .icon-btn {
     margin-top: 10px;
     width: 3rem;
     height: 3rem;
@@ -24,17 +24,16 @@
     -webkit-transition: margin 0.1s ease-out;
     -moz-transition: margin 0.1s ease-out;
     -o-transition: margin 0.1s ease-out;
-    border: 5px solid black;
-    border-radius: 100%;
   }
-  
-  .icon-btn:hover{
+
+  .icon-btn:hover {
     cursor:pointer;
     margin-top: 3px;
-    /* background-color:greenyellow; */
-    border: 5px solid greenyellow;
+    background-color:greenyellow;
+    border: 3px solid black;
+    border-radius: 100%;
   }
-  
+
   .icon-link {
     display: inline-block;
   }

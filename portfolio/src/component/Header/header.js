@@ -2,7 +2,6 @@ import React from 'react';
 import { Image } from 'react-bootstrap';
 
 import logo from '../../img/logo.png';
-
 import './header.css';
 
 export default () => {

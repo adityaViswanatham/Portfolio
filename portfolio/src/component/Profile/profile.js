@@ -5,9 +5,7 @@ import university from '../../img/university.png';
 import publication from '../../img/publications.png';
 import research from '../../img/research.png';
 import students from '../../img/students.png';
-
 import profileImg from '../../img/profile-img.jpg';
-
 import './profile.css';
 
 export default ({ name }) => {
