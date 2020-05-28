@@ -19,6 +19,7 @@
 
 .profile-name {
   margin: 0;
+  color: white;
 	font-size: 4rem;
   font-weight: 8000;
 }
@@ -54,7 +55,8 @@
 
 .icon-btn:hover{
   cursor:pointer;
-    margin-top: 5px;
+  margin-top: 5px;
+  background-color:greenyellow;
 }
 
 .icon-link {
