@@ -29,9 +29,9 @@
   }
 
   .icon-btn:hover {
-    cursor:pointer;
+    cursor: pointer;
     margin-top: 3px;
-    background-color:greenyellow;
+    background-color: greenyellow;
     border: 3px solid black;
     border-radius: 100%;
   }
