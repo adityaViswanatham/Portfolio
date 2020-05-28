@@ -21,7 +21,7 @@ function App() {
             <a href='https://www.utdallas.edu/' >
               <Image className='logo' src={ logo } alt="UTD LOGO" roundedCircle />
             </a>
-            <p style={{ margin: '10px' }}><strong>The University of Texas at Dallas</strong></p>
+            <p style={{ margin: '5px' }}><strong>The University of Texas at Dallas</strong></p>
         </div>
         <hr />
         {/* Profile */}
