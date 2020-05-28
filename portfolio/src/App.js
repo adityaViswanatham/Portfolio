@@ -9,13 +9,11 @@ import './App.css';
 function App() {
   const name = 'B.P.S. Murthi';
   return (
-    <div className='App'>
-      <Container>
-        <Header />
-        <hr />
-        <Profile name={ name }/>
-      </Container>
-    </div>
+    <Container className='App'>
+      <Header />
+      <hr />
+      <Profile name={ name }/>
+    </Container>
   );
 }
 
