@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  justify-content: center;
 }
 
 .App-header {
@@ -37,6 +38,7 @@
 .profile {
   align-content: center;
   justify-content: center;
+  align-items: center;
 }
 
 .profile-image {
@@ -48,6 +50,7 @@
   margin-top: 10px;
   width: 3rem;
   height: 3rem;
+  padding: 5px;
   -webkit-transition: margin 0.1s ease-out;
   -moz-transition: margin 0.1s ease-out;
   -o-transition: margin 0.1s ease-out;
@@ -55,11 +58,12 @@
 
 .icon-btn:hover{
   cursor:pointer;
-  margin-top: 5px;
+  margin-top: 3px;
   background-color:greenyellow;
+  border: 5px solid black;
+  border-radius: 100%;
 }
 
 .icon-link {
-  width: fit-content;
-  margin-left: 415px;
+  display: inline-block;
 }
