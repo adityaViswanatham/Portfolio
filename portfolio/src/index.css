@@ -5,9 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e0e0e0;
+  /* background-color: #e0e0e0;
   background: linear-gradient(to right, rgba(150, 149, 151, 0.541), rgba(163, 162, 163, 0.79)), url('./img/UTD.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background-size: cover; */
 }
 
 code {

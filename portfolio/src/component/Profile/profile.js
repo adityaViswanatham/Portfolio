@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image, Row, Col } from 'react-bootstrap';
 
+import UsefulLinks from '../UsefulLinks/usefulLinks';
 import university from '../../img/university.png';
 import publication from '../../img/publications.png';
 import research from '../../img/research.png';
