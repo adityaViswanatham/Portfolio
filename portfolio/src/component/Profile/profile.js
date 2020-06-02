@@ -14,13 +14,14 @@ export default ({ name }) => {
         <div className='profile'>
             <Image className='profile-image' src={ profileImg } alt='profile image' rounded/>
             <h1 className='profile-name'>{ name }</h1>
-            <p>
+            <p>Marketing Professor | Director of Morris Hite Center</p>
+            {/* <p>
                 Professor, 
                 <a href='https://jindal.utdallas.edu/marketing/'> Marketing </a>
                 | Director,
                 <a href='https://jindal.utdallas.edu/centers-of-excellence/morris-hite-center-for-marketing/'> Morris Hite Center
                 </a>
-            </p>
+            </p> */}
             <Header />
             <hr className='new1'/>
             {/* <UsefulLinks /> */}
