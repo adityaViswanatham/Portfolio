@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, Row, Col } from 'react-bootstrap';
 
-import UsefulLinks from '../UsefulLinks/usefulLinks';
+import Header from '../Header/header';
 import university from '../../img/university.png';
 import publication from '../../img/publications.png';
 import research from '../../img/research.png';
@@ -12,9 +12,18 @@ import './profile.css';
 export default ({ name }) => {
     return (
         <div className='profile'>
-            <Image className='profile-image' src={ profileImg } alt='profile image' />
+            <Image className='profile-image' src={ profileImg } alt='profile image' rounded/>
             <h1 className='profile-name'>{ name }</h1>
-            <UsefulLinks />
+            <p>
+                Professor, 
+                <a href='https://jindal.utdallas.edu/marketing/'> Marketing </a>
+                | Director,
+                <a href='https://jindal.utdallas.edu/centers-of-excellence/morris-hite-center-for-marketing/'> Morris Hite Center
+                </a>
+            </p>
+            <Header />
+            <hr className='new1'/>
+            {/* <UsefulLinks /> */}
             <div className='icon-link'>
                 <Row>
                     <Col>

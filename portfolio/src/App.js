@@ -10,8 +10,8 @@ function App() {
   const name = 'B.P.S. Murthi';
   return (
     <Container className='App'>
-      <Header />
-      <hr />
+      {/* <Header /> */}
+      {/* <hr /> */}
       <Profile name={ name }/>
     </Container>
   );
