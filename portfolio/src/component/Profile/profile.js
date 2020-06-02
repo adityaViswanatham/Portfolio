@@ -14,6 +14,7 @@ export default ({ name }) => {
         <div className='profile'>
             <Image className='profile-image' src={ profileImg } alt='profile image' />
             <h1 className='profile-name'>{ name }</h1>
+            <UsefulLinks />
             <div className='icon-link'>
                 <Row>
                     <Col>
