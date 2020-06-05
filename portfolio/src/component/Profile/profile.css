@@ -11,7 +11,7 @@
     font-size: 3em;
     letter-spacing: 4px;
     overflow: hidden;
-    background: linear-gradient(90deg, #fff, #000, #fff);
+    background: linear-gradient(90deg, #fff, #FFA500, #fff);
     background-repeat: no-repeat;
     background-size: 80%;
     animation: animate 3s linear infinite;
@@ -51,7 +51,8 @@
   }
 
   .desc {
-    font-weight: 150;
+    font-size: 12px;
+    font-weight: 350;
   }
 
   .icon-btn:hover {
@@ -59,7 +60,7 @@
     margin-top: 3px;
     background-color: greenyellow;
     border: 2px solid black;
-    border-radius: 100%;
+    border-radius: 10%;
   }
 
   .icon-link {
@@ -70,5 +71,5 @@
     margin-top: 20px;
     border: 1px solid green;
     width:50%;
-    text-align:center
+    text-align: center
   }
