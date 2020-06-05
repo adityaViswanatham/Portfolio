@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 4rem;
     font-weight: 8000;
     position: relative;
@@ -11,11 +11,11 @@
     font-size: 3em;
     letter-spacing: 4px;
     overflow: hidden;
-    background: linear-gradient(90deg, #fff, #FFA500, #fff);
+    background: linear-gradient(90deg, #edf5e1, #000, #edf5e1);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 3s linear infinite;
-    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
   }
 
@@ -29,9 +29,21 @@
   }
   
   .profile {
+    margin-top: 50px;
     align-content: center;
     justify-content: center;
     align-items: center;
+  }
+
+  .card {
+    display: inline-block;
+    box-shadow: inset;
+  }
+
+  .profile-card {
+    display:inline-block;
+    padding: 25px;
+    background-color:#edf5e1;
   }
   
   .profile-image {
@@ -57,8 +69,8 @@
 
   .icon-btn:hover {
     cursor: pointer;
-    margin-top: 3px;
-    background-color: greenyellow;
+    margin-top: 5px;
+    background-color: #bdedff;
     border: 2px solid black;
     border-radius: 10%;
   }
