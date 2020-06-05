@@ -24,7 +24,7 @@ export default ({ name }) => {
                     <div className='profile-card'>
                         <Image className='profile-image' src={ profileImg } alt='profile image' rounded/>
                         <h1 className='profile-name'>B.P.S. Murthi</h1>
-                        <p>Marketing Professor | Director of Morris Hite Center</p>
+                        <p>Professor, Marketing | Director of Morris Hite Center</p>
                     </div>
                 </div>
                 <div className='icon-link'>

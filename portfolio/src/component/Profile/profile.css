@@ -11,7 +11,7 @@
     font-size: 3em;
     letter-spacing: 4px;
     overflow: hidden;
-    background: linear-gradient(90deg, #edf5e1, #000, #edf5e1);
+    background: linear-gradient(90deg, #e8e4e1, #000, #e8e4e1);
     background-repeat: no-repeat;
     background-size: 80%;
     animation: animate 5s linear infinite;
@@ -38,12 +38,13 @@
   .card {
     display: inline-block;
     box-shadow: inset;
+    box-shadow: 3px 3px 5px 6px rgba(85, 81, 81, 0.432);
   }
 
   .profile-card {
     display:inline-block;
     padding: 25px;
-    background-color:#edf5e1;
+    background-color:#e8e4e1;
   }
   
   .profile-image {
